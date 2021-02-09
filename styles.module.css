@@ -1,0 +1,40 @@
+.hello {
+    font: 25px Helvetica, Arial, sans-serif;
+    background: rgb(226, 225, 225);
+    padding: 100px;
+    text-align: center;
+    transition: 100ms ease-in background;
+  }
+  .hello:hover {
+    background: #ccc;
+  }
+  .button{
+     
+      border-radius: 15px 0 15px 0;
+      color: black;
+    border-style: solid;
+    height: 25px;
+    width: 100px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    
+  }
+  .button:hover{
+      text-decoration: #ccc;
+    background-color: rgb(236, 187, 236);
+    color: rgb(1, 48, 149);
+    border-radius: 0px 15px 0px 15px ;
+    height: 35px;
+    width: 100px;
+   
+}
+
+.form{
+    border: none;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    margin-bottom: 12px;
+
+}
